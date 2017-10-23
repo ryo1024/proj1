@@ -1,6 +1,8 @@
 # Q0: Why is this error being thrown?
+Pokemon that appears in home_controller was not defined in anywhere
 
 # Q1: How are the random Pokemon appearing? What is the common factor between all the possible Pokemon that appear? *
+Four types of pokemons are appearing in a random level which was defined in the seed level.
 
 # Question 2a: What does the following line do "<%= button_to "Throw a Pokeball!", capture_path(id: @pokemon), :class => "button medium", :method => :patch %>"? Be specific about what "capture_path(id: @pokemon)" is doing. If you're having trouble, look at the Help section in the README.
 
